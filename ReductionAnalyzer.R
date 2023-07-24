@@ -2,7 +2,7 @@ library(readxl)
 library(ggplot2)
 library(dplyr)
 
-ZF_Sheets <- read_excel("Desktop/Programming/R/Sheets.xls")
+ZF_Sheets <- read_excel("../R/Sheets.xls")
 
 
 #ZF_Sheets$`Average Reduction %`
