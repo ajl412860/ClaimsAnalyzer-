@@ -17,7 +17,7 @@ ZF_Sheets_2 = select(ZF_Sheets, `Assigned To`,`Provider Name` , `Total Bills (Al
                               )
                               
                               
-zf_no_missing <- filter(ZF_Sheets_2,`Assigned To` == "Zach Felder",`Average Reduction %` != ""
+zf_no_missing <- filter(ZF_Sheets_2,`Assigned To` == "Account Executive",`Average Reduction %` != ""
                         , ) 
 ### Has averages, and total amounts 
 summary <- summary(zf_no_missing)
